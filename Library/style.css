@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    height: 90px;
+    margin-bottom: -43
+    px;
+    padding: 0;
+    background-color: #0C0C0E;
+  }
+  .container {
+    max-width: 1440px;
+  margin: 0;
+  min-height: 90px;
+  justify-content: flex-end;
+}
+.nav-list {
+  margin-right: 42px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.section-profile-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  filter: grayscale(0.2) brightness(1.05);
+}
+.header-container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 20px 31px 40px;
+}
+
+.brooklyn {
+  font-family: Forum;
+  color: white;
+  font-size: 30px;
+  font-family: Forum;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.60px;
+  word-wrap: break-word;
+  padding: 20px;
+}
+.welcome {
+  display: flex;
+height: 600px;
+width: 1440px;
+
+
+justify-content: center;
+align-items: center;
+background-image: url("./assets/img/Welcome.png");
+}
