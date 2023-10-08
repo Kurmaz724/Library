@@ -10,7 +10,7 @@
     justify-content: space-between;
     max-width: 1440px;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
   .header {
@@ -450,17 +450,20 @@ cursor: pointer;
     
   }
   .coffee-shop {
+    margin-top: 32px;
+  }
+  .coffee-shop-name {
     margin-top:15px;
     justify-content: center;
     align-items: center;
      display: flex;
-    margin-left:97px}
+    margin-left:3px}
     .name3::after {
       margin-left: 86px;}
       .text-coffee-shop {
         height: 120px;
         width:1400px;
-        margin-top: 8px;
+        margin-top: 7px;
         margin-left: 18px;
         display: flex;
         justify-content: center;
@@ -570,8 +573,8 @@ word-wrap: break-word;}
    display: flex;
    justify-content: flex-start;
    align-items: flex-end;
-   margin-top:39px;
-   margin-left:291px;
+   margin-top:40px;
+   margin-left:290px;
    flex-direction: column;
   }
   .dessertscakes{color: #BB945F;
@@ -704,7 +707,6 @@ text-transform: capitalize;
   a {text-decoration: none;
   color: black}
   .DigitalLibraryCards { width:1440px;
-    height:  px;
      display: flex;
      flex-direction: column;
   }
