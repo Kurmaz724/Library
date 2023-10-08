@@ -10,7 +10,7 @@
     justify-content: space-between;
     max-width: 1440px;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
   .header {
@@ -49,6 +49,7 @@
   line-height: 50px;
   word-wrap: break-word;
   text-decoration: none;
+  cursor: pointer;
 }
 .section-profile-logo {
   width: 28px;
@@ -197,12 +198,15 @@ h2::after {
        height: 16px;
           background: #0C0C0E;
            border-radius: 50px;} 
+           .favorites {display:flex;
+            width:1440px;
+            height: 1439px;
+            flex-direction: column;}
            .favorites-text {
               margin-top:31px;
               justify-content: center;
               align-items: center;
-               display: flex;
-              margin-left:95px}
+               display: flex;}
               .name2::after {
                 margin-left: 58px;}
                 .pick {
@@ -217,9 +221,9 @@ h2::after {
                      input[type="radio"]:checked+span { font-weight: bold;}
                      input[type='radio'] {accent-color: #000000;}
                      input[type='radio'] {zoom: 1.29;}
+                     
                      .radio {
                       display: flex;
-                      justify-content: flex-start;
                       width: 900px;
                       height: 100px;
               color: black;
@@ -227,38 +231,48 @@ h2::after {
               font-family: Inter;
               font-weight: 400;
               word-wrap: break-word;
-              margin-left: 14px;
-              margin-top: -4px;
+              margin-left: 13px;
+              margin-top: -3px;
+              
             }
                             
-.grand-input { 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 145px;
-    height: 30px;
-    margin-right: 53px;
-   
-    }
-
-.grand-input2 {margin-left: -2px;
+            .grand-input { 
+              display: flex;
+              justify-content: flex-start;
+              width: 145px;
+              height: 30px;
+              margin-right: 53px;
+             
+              }
+          .grand-input { 
+              display: flex;
+              justify-content: flex-start;
+              width: 145px;
+              height: 30px;
+              margin-right: 53px;
+              }
+          
+          .grand-input2 {margin-left: -2px;
+            
+            
+          }
+          .grand-input3 {
+            
+            margin-left:-10px;
+          }
+          .grand-input4 {margin-left:-9px;
+          }
+          
+.seas {margin-left:13px;
   
 }
-.grand-input3 {
-  
-  margin-left:-10px;
-}
-.grand-input4 {margin-left:-9px;
-  
-}
-.seas {margin-left:13px;}
 
 .list-book { width: 1440px;
   height: 100%;
      flex-direction: row;
       justify-content: flex-start;
         display: flex;
-        margin-top: -33px;
+        margin-top: 36px;
         flex-wrap: wrap;
       }
 
@@ -293,6 +307,7 @@ h2::after {
           border: 1px black solid;
          display: flex;  
          flex-direction:column;
+         
         }
         
         .element1 {
@@ -306,6 +321,7 @@ text-transform: capitalize;
 line-height: 40px;
 letter-spacing: 2px;
 word-wrap: break-word;
+
 }
 .element1::after {
   content: "";
@@ -387,6 +403,7 @@ letter-spacing: 1px;
 word-wrap: break-word;
 margin-left:20px;
 margin-top: 14px;
+cursor: pointer;
   }
   .button :hover { background: #BB945F;
     border: 1px solid #BB945F}
@@ -405,7 +422,8 @@ font-weight: 700;
 letter-spacing: 1px;
 word-wrap: break-word;
 margin-left:20px;
-margin-top: 15px;
+margin-top: 54px;
+
   }
   .own {
     background: white;
@@ -420,7 +438,9 @@ font-weight: 700;
 letter-spacing: 1px;
 word-wrap: break-word;
 margin-left:20px;
-margin-top: 14px;
+margin-top: 94px;
+cursor: pointer;
+
 
   }
   .image{width: 200px;
@@ -430,7 +450,7 @@ margin-top: 14px;
     
   }
   .coffee-shop {
-    margin-top:-8px;
+    margin-top:15px;
     justify-content: center;
     align-items: center;
      display: flex;
@@ -746,10 +766,9 @@ margin-top: 19px;
       margin:20px 20px -8px 20px;
       
       width: 520px;
-      height:80px;
-      
-      
+      height:80px;   
     }
+    input {cursor: pointer;}
    
     .inputin {
       border-radius: 10px;
@@ -772,12 +791,15 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
     }
+    .buttonfind :hover { background: #BB945F;
+      border: 1px solid #BB945F}
     .formbacground {
       width: 560px;
       height:272px;
       background-color: #BB945F;
       margin-left: -3px;
-      margin-top: -1px
+      margin-top: -1px;
+      cursor: pointer
     }
     ::placeholder {
       display:flex;
@@ -825,6 +847,10 @@ margin-top: 33px;
       margin-left:705px;
       margin-top:-44px;
     }
+    .button-sign :hover { background: #BB945F;
+      border: 1px solid #BB945F}
+      .button-log :hover { background: #BB945F;
+        border: 1px solid #BB945F}
 
     .footer { display:flex;
       flex-direction:column;
