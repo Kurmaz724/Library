@@ -10,7 +10,7 @@
     justify-content: space-between;
     max-width: 1440px;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
   .header {
@@ -300,13 +300,15 @@ h2::after {
          flex-direction:column;
          margin-left:20px;
          margin-right:259px;
-         margin-bottom: 41px; 
+         margin-bottom: 41px;
+         margin-top:-2px;
         }
         .book4 { width: 550px;
           height: 555px;
           border: 1px black solid;
          display: flex;  
          flex-direction:column;
+         margin-top:-2px;
          
         }
         
@@ -453,11 +455,11 @@ cursor: pointer;
     margin-top: 31px;
   }
   .coffee-shop-name {
-    margin-top:15px;
+    margin-top:32px;
     justify-content: center;
     align-items: center;
      display: flex;
-    margin-left: 99px;}
+    ;}
     .name3::after {
       margin-left: 86px;}
       .text-coffee-shop {
@@ -723,7 +725,6 @@ text-transform: capitalize;
   }
   .findgetcard {
     flex-direction: column;
-    border: #14e6b1 solid;
     
   }
   .findcard-name {
@@ -781,8 +782,8 @@ margin-top: 19px;
     .buttonfindin {
       width: 242px;
       height: 44px;
-      margin-left:155px;
-      margin-top:18px;
+      margin-left:158px;
+      margin-top:38px;
       background: #fff;
       color: #0C0C0E;
 text-align: center;
@@ -805,9 +806,7 @@ letter-spacing: 1px;
     }
     ::placeholder {
       display:flex;
-      padding-left:16px;
-      padding-top:100px;
-     
+      padding-left:18px;
       color: #8E8E8E;
       line-height: 50px; /* 166.667% */
 font-family: Forum;
@@ -971,5 +970,4 @@ letter-spacing: 2px;
   line-height: 20px; /* 100% */
   letter-spacing: 2px;}
 
-  .ab {border: #db1717 solid;}
   
