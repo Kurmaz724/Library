@@ -17,7 +17,7 @@
    <header class="header">
    <div class="brooklyn"> <h1>Brooklyn Public Library </h1> </div>
 
-<nav class="container header-container-nav">
+<nav class="container container-nav">
       <ul class="nav-list">          
          <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
          <li class="nav-item"><a href="#Favorites" class="nav-link">Favorites</a></li>
@@ -25,8 +25,14 @@
          <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
          <li class="nav-item"><a href="#Librarycard" class="nav-link">Library Card</a></li>
         </ul>
-        <img src="./assets/img/icon_profile.png" alt="logo" class="section-profile-logo">
+        <img src="./assets/img/icon_profile.png" alt="logo" class="section-profile">
+        <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+        </div>
      </nav>
+
    </header>
    <main class="main">
   <section class="welcome">
@@ -42,9 +48,11 @@
       </div>
       <div class="text-about">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside  </div>
        <div class="image-about">
+         <img src="./assets/img/CarretLeft.png" alt="image1" class="CarretLeft">
          <img src="./assets/img/image1.png" alt="image1" class="image-about-1">
-         <img src="./assets/img/image2.png" alt="image2" class="image-about-1">
-         <img src="./assets/img/image3.png" alt="image3" class="image-about-1">
+         <img src="./assets/img/image2.png" alt="image2" class="image-about-2">
+         <img src="./assets/img/image3.png" alt="image3" class="image-about-3">
+         <img src="./assets/img/CarretRight.png" alt="image1" class="CarretRight">
        </div>
        <div class="carousel">
          <div class="grand-carousel">
@@ -54,6 +62,10 @@
          <div class="carousel2"></div>
       </div>
       <div class="grand-carousel"><div class="carousel3"></div> 
+         </div>
+         <div class="grand-carousel"><div class="carousel4"></div> 
+         </div>
+         <div class="grand-carousel"><div class="carousel5"></div> 
          </div>
          </div>
    </section>
@@ -109,83 +121,87 @@
             <div class="text-book"> A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</div>
             <div class="button"><input class="own" type="button" value="Own" disabled></div>
             <div class="image-book-4"><img src="./assets/img/book(3).png" alt="book" class="image"></div>
+            
          </div>
    </div>
   </section>
   <section class="coffee-shop" id="Coffeeshop">
-  <div class="coffee-shop-name">
-    <h2 class="name3" >Coffee shop</h2>
+   <div class="coffee-shop-name">
+     <h2 class="name3" >Coffee shop</h2>
+   </div>
+   <div class="text-coffee-shop">
+ <span class="textall">
+ <span class="i">I</span><span class="textcoffe1">n our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
+ </span> <br>
+ <span class="y">y</span> <span class="textcoffe2">ou can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts &nbsp;from bakery.</span> </span> 
+ </div>
+ <div class="menu">
+ <div class="menu-coffeeTea">
+       <div class="CoffeeTea">Coffee & Tea </div>
+       <div class="nameprice"><div class="name-product">Cold Brew Coffee </div>  <div class="price">$3</div></div>
+       <div class="nameprice"><div class="name-product">French Press Pot </div>  <div class="price">$5</div></div>
+       <div class="nameprice"><div class="name-product">Espresso </div>  <div class="price">$2</div></div>
+       <div class="nameprice"><div class="name-product">Cappuccino </div>  <div class="price">$4</div></div>
+       <div class="nameprice"><div class="name-product">Hot tea </div>  <div class="price">$2</div></div>
+       <div class="nameprice"><div class="name-product">Cold Tea </div>  <div class="price">$2</div></div>
+    </div>
+    <div class="menu-dessertscakes">
+       <div class="dessertscakes">Desserts & Cakes</div>
+       <div class="nameprice2"><div class="name-product2">Forest Gateau </div> <div class="line"></div><div class="price2">$16</div></div>
+       <div class="nameprice2"><div class="name-product2">Blue Moon </div> <div class="line"></div> <div class="price2">$16</div></div>
+       <div class="nameprice2"><div class="name-product2">Truffle Cake</div> <div class="line"></div> <div class="price2">$15</div></div>
+       <div class="nameprice2"><div class="name-product2">Chocolate Cake</div> <div class="line"></div> <div class="price2">$18</div></div>
+       <div class="nameprice2"><div class="name-product2">Poet's Dream Cake </div>  <div class="line"></div><div class="price2">$16</div></div>
+       <div class="nameprice2"><div class="name-product2">Pineapple Cake </div> <div class="line"></div> <div class="price2">$14</div></div>
+    </div>
+ </div>
+ </section>
+ <section class="OurContacts" id="Contacts">
+   <div class="text-contacts">  <h2 class="name4" >Our Contacts </h2>
   </div>
-  <div class="text-coffee-shop">
-<span class="textall">
-<span class="i">I</span><span class="textcoffe1">n our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
-</span> <br>
-<span class="y">y</span> <span class="textcoffe2">ou can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts &nbsp;from bakery.</span> </span> 
+  <div class="contactsmap">
+  <div class="contacts"> <p class="bold"> For all Library inquiries: </p> 
+     <p class="normal">Please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
+     <p class="normal1">For TTY service, please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
+     <p class="normal">Putterham Library: (617) 730-2385 </p>
+     <p class="bold"> <a href="SeniorStaff@gmail.com" title="email">Senior Staff</a> </p>
+     <p class="normal2">Library Director: <span class="bold"><a href="SeniorStaff@gmail.com" title="email">Amanda Hirst</a></span> </p>
+  </div>
+  <div class="map"></div> 
 </div>
-<div class="menu">
-<div class="menu-coffeeTea">
-      <div class="CoffeeTea">Coffee & Tea </div>
-      <div class="nameprice"><div class="name-product">Cold Brew Coffee </div>  <div class="price">$3</div></div>
-      <div class="nameprice"><div class="name-product">French Press Pot </div>  <div class="price">$5</div></div>
-      <div class="nameprice"><div class="name-product">Espresso </div>  <div class="price">$2</div></div>
-      <div class="nameprice"><div class="name-product">Cappuccino </div>  <div class="price">$4</div></div>
-      <div class="nameprice"><div class="name-product">Hot tea </div>  <div class="price">$2</div></div>
-      <div class="nameprice"><div class="name-product">Cold Tea </div>  <div class="price">$2</div></div>
-   </div>
-   <div class="menu-dessertscakes">
-      <div class="dessertscakes">Desserts & Cakes</div>
-      <div class="nameprice2"><div class="name-product2">Forest Gateau </div> <div class="line"></div><div class="price2">$16</div></div>
-      <div class="nameprice2"><div class="name-product2">Blue Moon </div> <div class="line"></div> <div class="price2">$16</div></div>
-      <div class="nameprice2"><div class="name-product2">Truffle Cake</div> <div class="line"></div> <div class="price2">$15</div></div>
-      <div class="nameprice2"><div class="name-product2">Chocolate Cake</div> <div class="line"></div> <div class="price2">$18</div></div>
-      <div class="nameprice2"><div class="name-product2">Poet's Dream Cake </div>  <div class="line"></div><div class="price2">$16</div></div>
-      <div class="nameprice2"><div class="name-product2">Pineapple Cake </div> <div class="line"></div> <div class="price2">$14</div></div>
-   </div>
+ </section>
+ <section class="DigitalLibraryCards" id="Librarycard">
+  <div class="text-DigitalLibraryCards">
+     <h2 class="name5"> Digital Library Cards </h2></div>
+     <div class="findgetcardall">
+  <div class="findgetcard">
+     <p class="findcard-name">Find your Library card</p>
+     <div class="findcardall">
+        <div class="formbacground">
+        <form class="ab">
+           <div class="label"><label for="site-search">Brooklyn Public Library</label> </div>
+ <div class=input1> <input class="inputin" type="search" id="site-search" name="q" placeholder="Reader's name"> </div>
+ <div class=input1> <input class="inputin" type="search" id="site-search1" name="q" placeholder="Card number"> </div>
 </div>
-</section>
-  <section class="OurContacts" id="Contacts">
-    <div class="text-contacts">  <h2 class="name4" >Our Contacts </h2>
-   </div>
-   <div class="contactsmap">
-   <div class="contacts"> <p class="bold"> For all Library inquiries: </p> 
-      <p class="normal">Please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
-      <p class="normal1">For TTY service, please call <a href="tel:(617)730-2370">(617) 730-2370</a></p>
-      <p class="normal">Putterham Library: (617) 730-2385 </p>
-      <p class="bold"> <a href="SeniorStaff@gmail.com" title="email">Senior Staff</a> </p>
-      <p class="normal2">Library Director: <span class="bold"><a href="SeniorStaff@gmail.com" title="email">Amanda Hirst</a></span> </p>
-   </div>
-   <div class="map"></div> 
-</div>
-  </section>
-  <section class="DigitalLibraryCards" id="Librarycard">
-   <div class="text-DigitalLibraryCards">
-      <h2 class="name5"> Digital Library Cards </h2></div>
-      <div class="findgetcardall">
-   <div class="findgetcard">
-      <p class="findcard-name">Find your Library card</p>
-      <div class="findcardall">
-         <div class="formbacground">
-         <form class="ab">
-            <div class="label"><label for="site-search">Brooklyn Public Library</label> </div>
-  <div class=input1> <input class="inputin" type="search" id="site-search" name="q" placeholder="Reader's name"> </div>
-  <div class=input1> <input class="inputin" type="search" id="site-search1" name="q" placeholder="Card number"> </div>
-  <div class="buttonfind"> <button class="buttonfindin">Check the card</button> </div>  
+ <div class="buttonfind"> <button class="buttonfindin">Check the card</button> </div>
+</div>         
 </form>
+     </div>
+     
+     <div class="getcard">
+        <div class="get">Get a reader card</div>
+        <div class="gettext">You will be able to see a reader card after logging into account or you can register a new account</div>
+     
+        <div class="button-sign"><input class="buy" type="button" value="Sign Up"></div>
+        <div class="button-log"><input class="buy" type="button" value="Log In"></div>
+     
+     </div>
+  </div>
 </div>
-      </div>
-   </div>  
-      <div class="getcard">
-         <div class="get">Get a reader card</div>
-         <div class="gettext">You will be able to see a reader card after logging into account or you can register a new account</div>
-      
-         <div class="button-sign"><input class="buy" type="button" value="Sign Up"></div>
-         <div class="button-log"><input class="buy" type="button" value="Log In"></div>
-      
-      </div>
-   </div>
+ </section>
 
-  </section>
-   </main>
+   
+</main>
    <footer class="footer">
       <div class="frame1">
          <div class="framer1-1"><a class="framer1-1-1" href="https://yandex.by/maps/202/new-york/search/286%20Cadman%20Plaza%2C%20New%20York%2C%20NY%2011238%2C%20United%20States/?ll=-73.896097%2C40.733336&sll=-73.896097%2C40.733178&source=serp_navig&z=10">286 Cadman Plaza, New York, NY 11238, United States</a></div>
@@ -201,13 +217,15 @@
                   <div class="framer2-2">Sat - Sun <br> 10:00 am - 06:00 pm</div>
                   </div>
                   <div class="line-footer"></div>
-      
+      </div>
       <div class="farmer3">
          <div class="farmer3-1">2023</div>
          <div class="farmer3-2">The Rolling Scopes School</div>
          <div class="farmer3-3"> <a class="rs" href="https://github.com/Kurmaz724" title="rs">Kurmaz724</a></div>
       </div>
    </footer>
+   <script src="./index.js"></script>
 </body>
 </html>   
+
 
