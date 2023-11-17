@@ -30,7 +30,7 @@ body {
   color: #db1717;
 }
 .container {
-  width: 650px
+  max-width: 650px;
 display:flex;
 position:relative;
 left:376px;
@@ -1248,7 +1248,7 @@ left: 20px;
           .coffee-shop-name {            
             margin-left:0px;}
             .textall {width:728px;
-            margin-left:-55px;
+            margin-left:-12px;
           margin-bottom:2px;}
             .menu { flex-direction: column;
               margin-top: -5px;
@@ -1288,7 +1288,7 @@ left: 20px;
                   margin-left:0px;
                   margin-right:0px;
                   margin-top:-14px;
-                  padding
+                  padding-left:20px;
                 
                 }
                 .map { display:flex;
@@ -1312,7 +1312,7 @@ left: 20px;
                                               }
                                      
                                 .getcard {
-                                   margin-left: -668px;
+                                   margin-left: -602px;
                                   margin-top:469px;
                                   
                                                             }
