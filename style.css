@@ -30,12 +30,10 @@ body {
   color: #db1717;
 }
 .container {
-  max-width: 650px;
-display:flex;
+  max-width: 750px;
 position:relative;
 left:376px;
 justify-content: flex-end;
-
 
 }
 .nav-list {
@@ -760,7 +758,6 @@ height: 414px;
 background-image: url("assets/img/map.png");
 margin:0;
 
-
 }
 .bold {color: #000;
 font-family: Inter;
@@ -845,7 +842,6 @@ margin-top: 95px;
 .findgetcardall { 
   display:flex;
   flex-direction: row;
-
 
   
 }
@@ -1106,7 +1102,6 @@ box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 filter: grayscale(0.2) brightness(1.05);
 left: 20px;
 }
-
 
   .background {
     background-image: url("assets/img/Welcome768.png");}
@@ -1499,6 +1494,7 @@ left: 20px;
                                
 
         
+
 
 
 
